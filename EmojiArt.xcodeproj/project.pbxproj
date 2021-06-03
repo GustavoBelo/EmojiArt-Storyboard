@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA5CE8742667C040005DB3A9 /* DocumentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5CE8732667C040005DB3A9 /* DocumentInfoViewController.swift */; };
+		AAC7B26A26695F55005AEF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC7B26926695F55005AEF03 /* Main.storyboard */; };
 		EC422AC61FB3E31100ECCBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC422AC51FB3E31100ECCBAE /* AppDelegate.swift */; };
 		EC422AC81FB3E31100ECCBAE /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC422AC71FB3E31100ECCBAE /* DocumentBrowserViewController.swift */; };
 		EC422ACC1FB3E31100ECCBAE /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC422ACB1FB3E31100ECCBAE /* EmojiArtDocument.swift */; };
-		EC422ACF1FB3E31100ECCBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC422ACD1FB3E31100ECCBAE /* Main.storyboard */; };
 		EC422AD11FB3E31100ECCBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC422AD01FB3E31100ECCBAE /* Assets.xcassets */; };
 		EC422AD41FB3E31100ECCBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC422AD21FB3E31100ECCBAE /* LaunchScreen.storyboard */; };
 		EC422AE31FB3E45600ECCBAE /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC422ADC1FB3E45500ECCBAE /* EmojiCollectionViewCell.swift */; };
@@ -25,11 +25,11 @@
 
 /* Begin PBXFileReference section */
 		AA5CE8732667C040005DB3A9 /* DocumentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentInfoViewController.swift; sourceTree = "<group>"; };
+		AAC7B26926695F55005AEF03 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC422AC21FB3E31100ECCBAE /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC422AC51FB3E31100ECCBAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC422AC71FB3E31100ECCBAE /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		EC422ACB1FB3E31100ECCBAE /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
-		EC422ACE1FB3E31100ECCBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC422AD01FB3E31100ECCBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC422AD31FB3E31100ECCBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC422AD51FB3E31100ECCBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		EC422AC41FB3E31100ECCBAE /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
-				EC422ACD1FB3E31100ECCBAE /* Main.storyboard */,
+				AAC7B26926695F55005AEF03 /* Main.storyboard */,
 				AA5CE8732667C040005DB3A9 /* DocumentInfoViewController.swift */,
 				EC422AC71FB3E31100ECCBAE /* DocumentBrowserViewController.swift */,
 				EC422AE01FB3E45600ECCBAE /* EmojiArtViewController.swift */,
@@ -159,9 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC7B26A26695F55005AEF03 /* Main.storyboard in Resources */,
 				EC422AD41FB3E31100ECCBAE /* LaunchScreen.storyboard in Resources */,
 				EC422AD11FB3E31100ECCBAE /* Assets.xcassets in Resources */,
-				EC422ACF1FB3E31100ECCBAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC422ACD1FB3E31100ECCBAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC422ACE1FB3E31100ECCBAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC422AD21FB3E31100ECCBAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
